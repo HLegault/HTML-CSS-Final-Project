@@ -1,0 +1,147 @@
+/*CSS
+Final Project CP1190
+Author: Heather Legault
+Date: Dec 3rd 2018
+The Cupcake Factory
+*/
+
+html{font-size:20px;}
+
+body{background-image:url("cupcakewallpaper.jpg");
+	font:#FFFFFF;
+	width: 95%;
+	min-width: 640px;
+	max-width: 960px;
+	margin-left:auto;
+	margin-right:auto;
+	border:solid;
+	border-color:#845015;}
+
+#orderformparge{height:1200px;}
+
+main, aside {padding:10px;}
+
+footer{background-color:#EFB8BC;
+	font:white;
+	text-align:center;
+	border-color:white;
+	border:solid 3px;}
+
+#background,#products, #flavours {background-color:#EFB8BC;}
+
+#logoimg {
+	width:100%;
+	height:300px;
+	position:centered;
+	padding:0px;}
+
+.topnav {background-color:#68DEB9;
+	overflow:hidden;}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 16px 60px;
+    text-decoration: none;
+    font-size: 17px;}
+
+.topnav a:hover {
+    background-color:#85D6BC;
+    color: white;}
+
+.topnav a.active {
+    background-color: #4CAF50;
+    color: black;}
+	
+#flavours{float:left;
+	border:solid;
+	border-color:white;
+	width:360px;
+	text-align:left;
+	height:1500px;}
+
+#products{float:left;
+	border:solid;
+	border-color:white;
+	width:550px;
+	height:1500px;}
+
+#cupcakemainpage{width:200px;
+	height:200px;
+	float:right;
+	border:solid;
+	border-color:white;}
+
+#cakemainpage{width:200px;
+	height:200px;
+	float:right;
+	border:solid;
+	border-color:white;}
+
+#locations{column-count:2;
+	column-gap:20px;
+	padding:20px;}
+
+#locationheader{font-size:45px;
+	padding:20px;}
+
+#productimg{width:150px;
+		height:100px;
+		float:right;
+		padding:10px;}
+
+#productlist{list-style-type:upper-alpha;}
+
+#flavourlist{list-style-type:upper-roman;}
+
+#disclaimer{font-size:15px;
+	text-align:center;}
+
+#employees,th,td{border:solid;
+border-color:#FFFFFF;
+border-collapse:collapse;
+padding:5px;}
+
+ .button {
+    border-radius: 5px;
+}
+
+.button a {
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-size: 14px;
+    font:white;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;  
+	background-color:#EFB8BC;}
+
+button{border:none;
+	position:centered;
+	font:white;}
+
+#links{list-style-type:square;
+	position:center;}
+
+#links a {text-decoration:none;
+	color:white;}
+#links h4{text-decoration:underline;
+	font-size:28px;}
+
+#prices {float:right;}
+
+#prices img{width:300px;
+height:400px;}
+
+#bakery {position:centered;
+	border:solid;
+	border-color:white;
+	width:500px;
+	height:400px;}
+#bakery2 {float:right;}
+
+#bakery2 img{width:300px;
+	height:200px;
+	border:solid;
+	border-color:white;}

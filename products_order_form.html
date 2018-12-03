@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- The Cupcake Factory
+Author: Heather Legault
+Date: Dec,5, 2018 -->
+<title>Sweet Treats Ordering!</title>
+<link rel="stylesheet" href="CSS_final_project.css" type="text/css"></link>
+</head>
+<body>
+<div id="background">
+<header>
+<img id="logoimg" src="cupcakefactorylogo.png" alt="Cupcake Factory logo" usemap="logomap"></img>
+<map name="logomap" >
+<area shape="rect" href="index.html" coords="451,107,879,404" alt="Back to homepage"/>
+<area shape="circ" href="products.html" coords="239,274,177" alt="To our Products"/>
+<area shape="rect" href="about_us.html" coords="894,94,40,13" alt="About us"/>
+<hr></hr>
+<div class="topnav">
+	<a href="index.html">Homepage</a>
+	<a href="about_us.html">About Us & Locations</a>
+	<a href="products.html">Our Sweet Treats</a>
+	<a href="products_order_form.html">Order Some Treats</a>
+</div>
+<hr></hr>
+</header>
+<main id="orderformpage">
+<aside id="bakery2">
+<img src="bakery2.jpg" alt="Toronto Location"/>
+</aside>
+<h1>Order Form</h1>
+<p>So here is where you can make a customize order! At the moment we only offer online ordering for pick-up only. We may require extra information, we will reach out through email
+to get clarification. If you require catering for more than 20 persons, please come for an in store consulation. Please fill out all required fields.</p>
+<form id="order_form" action="products_order_form.html">
+<fieldset id="customerinfo">
+<legend> Customer Information </legend>
+<label for="fname"> First Name: <input type="text" id="fname"/> </label>
+<label for="lname"> Last Name: <input type="text" id="lname"/> </label>
+<label for="email"> Email: <input type="email" id="email" /> </label>
+<br><label for="company"> Company: <input type="text" id="company" placeholder="For company catering/purchases" /> </label>
+<label for="telnum">Telephone #: <input type="tel" id="telnum" /> </label>
+<label for="address">Address:<input type="text" id="address"/></label></br>
+<label for="city">City:<input type="text" id="city"/></label>
+<label for="Province">Province:<input type="text" id="Province"/></label>
+<label for="Postal Code">Postal Code:<input type="text" id="Province"/></label>
+</fieldset>
+<fieldset id="orderinfo" >
+<aside id="prices"><ul><h2>Prices:</h2>
+<img src="productprices.png" alt="Prices"/></aside>
+<legend> Order Information </legend>
+<label> For Personal Event <input type="checkbox"  /> </label>
+<br><label> For Catering Event <input type="checkbox" /> </label></br>
+<label> Select your treats!(select up to 4 different options)</label>
+<br><label>Option 1<select  name="treats1">
+		<option value="cookies">Cookies</option>
+		<option value="cakes">Cakes</option>
+		<option value="cupcakes">Cupcakes</option>
+		<option value="brownies">Brownies</option>
+		<option value="macaroons">Macaroons</option>
+		<option value="tarts">Tarts</option>
+		<option value="eclairs">Eclairs</option>
+		<option value="muffins">Muffins</option>
+		<option value="bars">Bars</option></select>
+		How many treats?<input type="number"/></label></br>
+<label> Option 2<select name="treats2">
+		<option value="cookies">Cookies</option>
+		<option value="cakes">Cakes</option>
+		<option value="cupcakes">Cupcakes</option>
+		<option value="brownies">Brownies</option>
+		<option value="macaroons">Macaroons</option>
+		<option value="tarts">Tarts</option>
+		<option value="eclairs">Eclairs</option>
+		<option value="muffins">Muffins</option>
+		<option value="bars">Bars</option></select>
+		How many treats?<input type="number"/></label>
+<br><label>Option 3<select name="treats3">
+		<option value="cookies">Cookies</option>
+		<option value="cakes">Cakes</option>
+		<option value="cupcakes">Cupcakes</option>
+		<option value="brownies">Brownies</option>
+		<option value="macaroons">Macaroons</option>
+		<option value="tarts">Tarts</option>
+		<option value="eclairs">Eclairs</option>
+		<option value="muffins">Muffins</option>
+		<option value="bars">Bars</option></select>
+		How many treats?<input type="number"/></label></br>
+<label>Option 4<select name="treats4">
+		<option value="cookies">Cookies</option>
+		<option value="cakes">Cakes</option>
+		<option value="cupcakes">Cupcakes</option>
+		<option value="brownies">Brownies</option>
+		<option value="macaroons">Macaroons</option>
+		<option value="tarts">Tarts</option>
+		<option value="eclairs">Eclairs</option>
+		<option value="muffins">Muffins</option>
+		<option value="bars">Bars</option></select>
+		How many treats?<input type="number"/></label>
+<br><label>Option 5<select name="treats5">
+		<option value="cookies">Cookies</option>
+		<option value="cakes">Cakes</option>
+		<option value="cupcakes">Cupcakes</option>
+		<option value="brownies">Brownies</option>
+		<option value="macaroons">Macaroons</option>
+		<option value="tarts">Tarts</option>
+		<option value="eclairs">Eclairs</option>
+		<option value="muffins">Muffins</option>
+		<option value="bars">Bars</option></select>
+		How many treats?<input type="number"/></label></br>
+<label>Option 5<select name="treats5">
+		<option value="cookies">Cookies</option>
+		<option value="cakes">Cakes</option>
+		<option value="cupcakes">Cupcakes</option>
+		<option value="brownies">Brownies</option>
+		<option value="macaroons">Macaroons</option>
+		<option value="tarts">Tarts</option>
+		<option value="eclairs">Eclairs</option>
+		<option value="muffins">Muffins</option>
+		<option value="bars">Bars</option></select>
+		How many treats?<input type="number"/></label>
+<br><label>Instructions(please enter what flavour/frosting you want!</label></br>
+<textarea id="option1" rows="10">Option 1: What are your instructions for your treats!</textarea></legend>
+<textarea id="option2" rows="10">Option 2: What are your instructions for your treats!</textarea>
+<textarea id="option3" rows="10">Option 3: What are your instructions for your treats!</textarea>
+<textarea id="option4" rows="10">Option 4: What are your instructions for your treats!</textarea>
+<textarea id="option5" rows="10">Option 5: What are your instructions for your treats!</textarea>
+<textarea id="option6" rows="10">Option 6: What are your instructions for your treats!</textarea>
+<br><label for="date">Date of pick-up: <input type="date" id="date"/></label>
+<label for="time">Time of pick-up: <input type="time" id="time"/></label></br>
+</fieldset>
+<input type="submit" value="Submit">
+</form>
+<p>After submitting your order, you will recieve an email with an estimated quote and any clarification we may need. Once your order begins being filled you will recieve the
+amount for the order. You may pay with cash or debit/visa upon pick-up.For any questions or concerns please contact us through email directly upon order submition.Thank you and 
+we hope you enjoy your sweet treats!</p>
+</main>
+<table class="button" >
+<tr><td><table>
+<tr><td class=”button” bgcolor="#EFB8BC">
+<a  class=”link” href="mailto:heather.legault96@ed.cna.nl.ca">Click Here to Email Us!</a>
+</td></tr></table></td></tr></table>
+</div>
+</body>
+
+<footer>
+The Cupcake Factory &copy; 2016
+</footer>
+</html>
